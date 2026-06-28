@@ -54,3 +54,29 @@ diagrams/      Visual explanations
 java/          Primary implementations
 
 go/            Concept translations into Go
+
+
+
+## Lesson Title format
+
+1. Why does this exist?
+
+2. What problem does it solve?
+
+3. Intuition
+
+4. Theory
+
+5. Diagram
+
+6. Important Rules
+
+7. Java Implementation
+
+8. Complexity
+
+9. Real-world Applications
+
+10. What I Learned
+
+11. Questions I Still Have
