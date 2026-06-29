@@ -31,10 +31,10 @@ Answer-Tree
 It's not just that a relationship exists. Also relationship is hierarchical.
 
 Grandparent
-      │
- Parent
-      │
- Child
+     │
+  Parent
+     │
+   Child
 
 Hierarchy is the key.
 

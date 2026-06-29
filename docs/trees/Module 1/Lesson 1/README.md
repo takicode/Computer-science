@@ -13,7 +13,7 @@ Before Trees Existed...
 Imagine you're living in 1970.You have a computer.
 The only data structure you know is an array.
 
-                [10][20][30][40][50]
+        [10][20][30][40][50]
 
 Life seems good. Need the third element?
 Easy.
@@ -103,7 +103,7 @@ Forget computers for a moment.
 
 Imagine a real tree.
 
-          🌳
+           🌳
           / \
          /   \
        🌿     🌿

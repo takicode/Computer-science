@@ -1,0 +1,57 @@
+MODULE 1 — TREE FUNDAMENTALS (What is a tree?)
+│
+├── Nodes, references, memory
+├── Root, parent, child, leaf
+├── Tree as a recursive structure
+└── Tree traversal (DFS intro)
+        │
+        ▼
+MODULE 2 — BINARY TREES (Structure rules)
+│
+├── Binary Tree definition
+├── Types of Binary Trees
+│     ├── Full Binary Tree
+│     ├── Perfect Binary Tree
+│     ├── Complete Binary Tree
+│     ├── Balanced Binary Tree
+│     └── Degenerate (Skewed) Tree
+├── Tree height & depth
+└── Traversals (Preorder, Inorder, Postorder)
+        │
+        ▼
+MODULE 3 — BINARY SEARCH TREES (BST)
+│
+├── BST property
+├── Insert / Search / Delete
+├── Balanced vs unbalanced BST
+└── Why BST exists
+        │
+        ▼
+MODULE 4 — BALANCED TREES
+│
+├── AVL Trees
+├── Red-Black Trees
+└── Rotations (left/right)
+        │
+        ▼
+MODULE 5 — HEAPS
+│
+├── Min Heap / Max Heap
+├── Heapify
+├── Priority Queue
+└── Heap Sort
+        │
+        ▼
+MODULE 6 — TRIES
+│
+├── Prefix trees
+├── Word search systems
+└── Auto-complete systems
+        │
+        ▼
+MODULE 7 — GRAPHS (after trees are mastered)
+│
+├── BFS / DFS
+├── Directed / Undirected graphs
+├── Weighted graphs
+└── Shortest path algorithms
