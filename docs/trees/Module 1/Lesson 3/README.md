@@ -112,7 +112,7 @@ Notice something.
 
 Where did we create the children?
 
-Nowhere.
+No where.
 
 The node simply has the ability to point to children.
 

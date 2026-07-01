@@ -59,15 +59,7 @@ child ───────►| value = 20           |
 
 Notice something interesting.
 
-Both
-
-child
-
-and
-
-root.left
-
-point to the same object.
+Both child and root.left point to the same object.
 
 There are only 2 TreeNode objects.
 
@@ -88,16 +80,6 @@ It references it.
 
 
 Question 3
-
-You answered:
-
-null
-
-✅ Correct.
-
-Because we never assigned anything to
-
-root.right
 
 So Java automatically keeps it as
 
@@ -134,7 +116,7 @@ The root variable simply points to the root node.
 This distinction will become incredibly important when we study recursion.
 
 
-🌟 The Biggest Lesson Today
+## The Biggest Lesson Today
 
 I want to teach you something that many students don't learn until much later.
 
@@ -178,7 +160,7 @@ Most beginners think they're all the same.
 
 They're not.
 
-Professional Corner 👨‍💻
+Professional Corner 
 
 When a senior engineer says:
 
@@ -194,13 +176,14 @@ They are simply passing another reference to the same object.
 
 That's one reason trees are efficient.
 
-Core Insight 🌱
+## Core Insight 
 
 Today's core insight is one of the most important you'll learn this month:
 
 Variables hold references. References point to objects. Objects reference other objects.
 
-If this sentence becomes second nature, you'll find trees, linked lists, graphs, and object-oriented programming much easier.
+If this sentence becomes second nature, you'll find trees, linked lists, graphs, and 
+object-oriented programming much easier.
 
 Before Lesson 4
 
@@ -222,4 +205,5 @@ what will a.value be?
 
 Don't guess. Think through it using today's mental model of variables → references → objects.
 
-If you can answer that correctly, you've crossed one of the biggest conceptual hurdles in Java, and we'll be ready to continue building our first real tree. 🌳
+If you can answer that correctly, you've crossed one of the biggest conceptual hurdles in Java, 
+and we'll be ready to continue building our first real tree. 

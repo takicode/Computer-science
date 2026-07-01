@@ -1,0 +1,8 @@
+Preorder
+A B D E C
+
+Inorder
+D B E A C
+
+Postorder
+D E B C A

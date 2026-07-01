@@ -1,0 +1,19 @@
+public class TreesNode{
+    int value;
+    TreesNode left;
+    TreesNode right;
+
+    public TreesNode(int value){
+        this.value = value;
+        this.left = null;
+        this.right = null;
+    }
+
+   public static void main(){
+    TreesNode n = new TreesNode(10);
+    n.left = new TreesNode(5);
+    n.right = new TreesNode(8);
+    
+   }
+    
+}

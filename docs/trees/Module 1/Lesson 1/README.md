@@ -3,7 +3,7 @@
 In simple term : A tree is a hierarchical data structure.
 Note the hierarchical
 
-Why did humans invent trees?
+## Why did humans invent trees?
 That single question will carry us through this entire module.
 
 Lesson 1
@@ -63,7 +63,7 @@ HTML- <html> -> <body> -> <div> -> <p>
 
 None of these are sequences.They're relationships.
 
-The Birth of Trees 🌳
+## The Birth of Trees 
 
 Someone eventually realized something powerful. Instead of storing things one after another...
 
