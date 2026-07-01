@@ -217,7 +217,7 @@ Trees were invented to model relationships that arrays cannot express naturally.
 
 If that sentence makes sense, you've already understood more than someone who memorized "a tree is a hierarchical non-linear data structure."
 
-Professional Corner 👨‍💻
+Professional Corner 
 
 A senior engineer rarely says:
 
