@@ -235,13 +235,7 @@ A B C D
 
 Back
 
-That's a queue.
-
-FIFO.
-
-First In.
-
-First Out.
+That's a queue -FIFO. First In. First Out.
 
 BFS works like this.
 
@@ -339,15 +333,9 @@ We're finally touching the reason you're learning all this.
 
 Java Perspective
 
-DFS (Preorder)
+DFS (Preorder) - preorder(root); Simple recursion.
 
-preorder(root);
-
-Simple recursion.
-
-BFS
-
-Requires a queue.
+BFS - Requires a queue.
 
 Later we'll write:
 
@@ -357,13 +345,16 @@ Today, don't worry about the code.
 
 Understand the idea.
 
-Comparison Table
-DFS	BFS
-Goes deep first	Goes level by level
-Uses recursion or stack	Uses queue
-Lower memory (often)	More memory
-Good for recursive problems	Good for shortest paths
-Engineering Corner
+Comparison Table 
+DFS	                          BFS
+Goes deep first	              Goes level by level
+Uses recursion or stack	      Uses queue
+Lower memory (often)	      More memory
+Good for recursive problems	  Good for shortest paths
+
+
+
+## Engineering Corner
 
 Suppose I ask:
 
@@ -399,26 +390,11 @@ Breadth-First Search.
 
 Today, you've learned the first half of the story.
 
-Later, we'll see why a graph is like a tree that has been set free. Trees have one parent per node and no cycles. Graphs can have many connections and cycles, making BFS even more valuable.
+Later, we'll see why a graph is like a tree that has been set free. 
+Trees have one parent per node and no cycles. 
+Graphs can have many connections and cycles, making BFS even more valuable.
 
-Repository Update
-
-Create:
-
-docs/
-└── trees/
-└── lesson-09/
-README.md
-
-Document:
-
-DFS in your own words.
-BFS in your own words.
-Why recursion naturally leads to DFS.
-Why BFS needs a queue.
-A comparison table.
-One real-world use case for each.
-Exercises
+## Exercises
 
 Use this tree:
 
@@ -448,7 +424,7 @@ Explain why recursion naturally performs DFS instead of BFS.
 
 Imagine you're teaching someone who's never seen recursion before.
 
-4. Engineering Question ⭐
+4. Engineering Question 
 
 Suppose you're building a navigation app.
 
