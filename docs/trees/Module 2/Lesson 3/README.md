@@ -79,7 +79,6 @@ That's exactly...
 
 Preorder Traversal
 
-🌟
 
 Another DFS:
 
@@ -325,7 +324,6 @@ Social networks
 Web crawlers
 Your lem-in project
 
-🌟
 
 Did you catch that?
 
@@ -437,7 +435,7 @@ BFS
 
 Explain why.
 
-🌱 Core Insight
+## Core Insight
 
 DFS explores one path completely before trying another. BFS explores all nearby possibilities before going deeper.
 
@@ -449,7 +447,7 @@ The next lesson is one I've been looking forward to since the day you said:
 
 We're finally arriving at the data structure that powers databases, search engines, indexes, and many interview questions:
 
-🌳 Binary Search Trees (BST)
+## Binary Search Trees (BST)
 
 Everything we've learned so far has been preparation for that moment.
 
