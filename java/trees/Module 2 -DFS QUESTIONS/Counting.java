@@ -1,22 +1,22 @@
 public class Counting {
     public static void main(String[] args) {
         //  root node
-        DFSsearch.TreeNode root = new DFSsearch.TreeNode((5));
+        TreeNode root = new TreeNode((5));
         // level 1
-        root.left = new DFSsearch.TreeNode(3);
-        root.right = new DFSsearch.TreeNode(8);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(8);
 
         // level 2
-        root.left.left = new DFSsearch.TreeNode(1);
-        root.left.right = new DFSsearch.TreeNode(4);
+        root.left.left = new TreeNode(1);
+        root.left.right = new TreeNode(13);
 
         System.out.println(Count(root));
     }
 
     public static class TreeNode{
         int value;
-        DFSsearch.TreeNode left;
-        DFSsearch.TreeNode right;
+        TreeNode left;
+        TreeNode right;
 
         TreeNode(int value){
             this.value = value;
@@ -24,12 +24,12 @@ public class Counting {
     }
 
 
-    public static int Count(DFSsearch.TreeNode node){
+    public static int MaxValue(TreeNode node){
         if (node == null){
-            return 0;
+            return Integer.MIN_VALUE;
         }
 
-        return 1 + Count(node.left) + Count(node.right);
+        return Math.max(node.value,  Math.max(MaxValue(node.left), MaxValue(node.right)) ) ;
     }
 
 }

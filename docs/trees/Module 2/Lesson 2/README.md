@@ -290,24 +290,39 @@ height(right): The height of the right child's subtree.
 
 
 1. Bottom Layer: The Leaves (D, E, C)
-    By definition, a leaf node has no children. If a child doesn't exist (null), its height is considered -1.$
+    By definition, a leaf node has no children. 
+    If a child doesn't exist (null), its height is considered -1.$
+    
+    
     Height(D) = 1 + max(-1, -1) = 1 - 1 = 0   
     Height(E) = 0
     Height(C) = 0
 
 2. Middle Layer: Node B
+    
     Now we apply the formula to B.  
     B looks at its left child (D) and right child (E):
-    Left child height (D) = 0 
+    
+    
+     Left child height (D) = 0 
     Right child height (E) = 0
                Height(B) = 1 + max(0, 0)
                Height(B) = 1 + 0 = 1 
 
 3. Top Layer: The Root (A)
-   Finally, we apply the formula to A. A looks at its left child (B) and right child (C):
-   Left child height (B) = 1Right child height (C) = 0  
-   Height(A) = 1 + max(1, 0) 
-   Since 1 is greater than 0, the max(1, 0) becomes 1:
+
+   Finally, we apply the formula to A. 
+  
+   A looks at its left child (B) and right child (C):
+
+   
+   Left child height (B) = 1
+
+   Right child height (C) = 0  
+   Height(A) = 1 + max(1, 0)
+
+   Since 1 is greater than 0, the max(1, 0) becomes 1
+
    Height(A) = 1 + 1 = 2
 
 ##  Java Implementation
