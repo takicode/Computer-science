@@ -68,9 +68,9 @@ TreeNode root = new TreeNode(10);
 
 You now have:
 
-    10
-   /  \
- null null
+      10
+     /  \
+    null null
 
 Then:
 
@@ -78,9 +78,9 @@ root.left = new TreeNode(5);
 
 Becomes:
 
-     10
-    /
-   5
+      10
+     /
+    5
 
 You are literally “building structure in memory.”
 
@@ -111,7 +111,9 @@ Tree	                Connected objects
 Examples:
 
 File system folder → Node
+
 HTML element → Node
+
 JSON object → Node
 
 
@@ -120,14 +122,16 @@ JSON object → Node
 1. Draw this tree in text:
 
 TreeNode root = new TreeNode(1);
+
 root.left = new TreeNode(2);
+
 root.right = new TreeNode(3);
 
 2. What does this represent?
 
-    1
-   / \
-  2   3
+         1
+        / \
+       2   3
 
 Is it:
 
@@ -137,8 +141,7 @@ a graph?
 
 Explain in your own words.
 
-3.
-
+3. 
 If I remove left and right and replace them with:
 
 List<TreeNode> children;

@@ -290,7 +290,7 @@ height(right): The height of the right child's subtree.
 
 
 1. Bottom Layer: The Leaves (D, E, C)
-    By definition, a leaf node has no children. If a child doesn't exist (null), its height is considered -1.$
+    By definition, a leaf node has no children. If a child doesn't exist (null), its height is considered -1
     Height(D) = 1 + max(-1, -1) = 1 - 1 = 0   
     Height(E) = 0
     Height(C) = 0
