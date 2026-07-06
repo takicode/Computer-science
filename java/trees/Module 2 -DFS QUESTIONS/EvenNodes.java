@@ -34,7 +34,7 @@ public class EvenNodes {
         }
 
 
-        return node.value + sum(node.left) + sum(node.right);
+        return node.value + EvenNodes(node.left) + EvenNodes(node.right);
 
     }
 

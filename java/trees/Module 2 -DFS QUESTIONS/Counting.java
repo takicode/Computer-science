@@ -10,7 +10,7 @@ public class Counting {
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(13);
 
-        System.out.println(Count(root));
+        System.out.println(MaxValue(root));
     }
 
     public static class TreeNode{
